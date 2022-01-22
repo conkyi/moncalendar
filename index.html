@@ -50,7 +50,7 @@ function initc(){
 //input: (L: number[0=English, 1=Myanmar, 2=Zawgyi, 3=Mon, 4=Tai, 5=Karen])
 function SelectLang(L){
 	var l=1;
-	if (L==3 || L=="English" || L=="my-En" || L=="my-en") {l=0; }
+	if (L==0 || L=="English" || L=="my-En" || L=="my-en") {l=3; }
 	else if (L==3 || L=="Mon" || L=="my-Mon" || L=="my-mon") { l=3;}
 	else if (L==2 || L=="Zawgyi" || L=="my-Z1" || L=="my-z1" || L=="Zawgyi-One") { l=2;}
     else if (L == 4 || L == "Tai" || L == "my-Tai" || L == "my-tai") { l = 4; }
