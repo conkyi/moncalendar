@@ -19,7 +19,7 @@ var montharray=new Array("January","February","March","April","May","June","July
 document.write("<font color='#0000ff' face='Arial'><b>"+dayarray[day]+", "+montharray[month]+" "+daym+", "+year+"</b></font>")
 </script></h5></th></td>
 <td><h5 style='font-family:Unicode;'>
-❤️<a lang='my-mon' id='mcalr'>mon</a>❤️<tb>
+❤️<a lang='my-mon' id='moncalendar'>mon</a>❤️<tb>
 <span id=tick2></span>
 <script language="javascript" type="text/javascript">
 <!--
