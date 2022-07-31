@@ -17,7 +17,7 @@ body {
 
 /* Div container for day*/
 .DivContainerDay {
-    width: 350px;
+    width: 450px;
     font-family: "Unicode","Zawgyi-One","Myanmar MN","Droid Sans","Padauk,Myanmar3","Arial", "Helvetica", "sans-serif";
     color: #999999;
     background-color: #222222;
@@ -25,7 +25,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
-    font-size: 16px;
+    font-size: 26px;
     text-align: left;
 }
 
@@ -224,7 +224,7 @@ body {
     color: #CCCCCC;
     padding: 10px;
     margin: 0px;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 /* Table footer row for Myanmar Calendar*/
@@ -237,7 +237,7 @@ body {
     padding-right: 8px;
     line-height: 100%;
     border: 1px solid #333333;
-    font-size: 14px;
+    font-size: 24px;
     background-color: #444444;
 }
 
@@ -258,7 +258,7 @@ body {
 /* Paragraph for table cell for Myanmar Calendar*/
 .PTdMC {
     color: #999999;
-    font-size: 14px;
+    font-size: 24px;
 }
 
 /* Anchor for table foot for Myanmar Calendar*/
@@ -281,21 +281,21 @@ body {
     padding: 8px;
     line-height: 100%;
     border: 1px solid #333333;
-    font-size: 14px;
-    width: 300px;
+    font-size: 24px;
+    width: 400px;
     background-color: #222222;
 }
 
 /* Primary day*/
 .PriDay {
     color: #CCCCCC;
-    font-size: 18px;
+    font-size: 58px;
 }
 
 /* Primary day as today*/
 .PriDayToday {
     color: #cca6f2;
-    font-size: 18px;
+    font-size: 58px;
     font-weight: bold;
     text-shadow: 1px 1px 2px #ff8080;
     border: 1px solid #333333;
@@ -312,61 +312,61 @@ body {
 /* Primary day as holiday*/
 .PriDayHoliday {
     color: #ff8080;
-    font-size: 18px;
+    font-size: 48px;
 }
 
 /* Primary day as weekend*/
 .PriDayWeekend {
     color: #ff8080;
-    font-size: 18px;
+    font-size: 48px;
 }
 
 /* Primary day as inaccuate*/
 .PriDayInaccu {
     color: #cca6f2;
-    font-size: 18px;
+    font-size: 48px;
 }
 
 /* Sabbath day*/
 .MCSabbath {
     color: #7ece7e;
-    font-size: 12px;
+    font-size: 22px;
 }
 
 /* Secondary day*/
 .SecDa {
     color: #999999;
-    font-size: 14px;
+    font-size: 24px;
 }
 
 /* Secondary day holiday*/
 .SecDaH {
     color: #ff8080;
-    font-size: 14px;
+    font-size: 24px;
 }
 
 /* Public Holiday description*/
 .MCPubHol {
     color: #ff8080;
-    font-size: 12px;
+    font-size: 22px;
 }
 
 /* Holiday description*/
 .MCHol {
     color: #cca6f2;
-    font-size: 12px;
+    font-size: 22px;
 }
 
 /* Yatyaza and Pyathada*/
 .MCYtyz {
     color: #7ece7e;
-    font-size: 12px;
+    font-size: 22px;
 }
 
 /* Astrological day description*/
 .MCAstro {
     color: #555555;
-    font-size: 12px;
+    font-size: 22px;
 }
 
 /*Full moon picture*/
@@ -408,13 +408,13 @@ body {
 
 /*font size for day display*/
 .DaFontSize {
-    font-size: 16px;
+    font-size: 26px;
 }
 
 /* Historical day*/
 .HLabel {
     color: #7ece7e;
-    font-size: 12px;
+    font-size: 22px;
     font-weight: bold;
     text-shadow: 1px 1px 2px #ff8080;
     border: 1px solid #333333;
@@ -435,12 +435,12 @@ body {
     padding: 10px;
     line-height: 150%;
     border: 1px solid #333333;
-    font-size: 18px;
+    font-size: 28px;
     background-color: #444444;
     font-family: Arial, Helvetica, sans-serif;
     color: #7ece7e;
 }
 
 .DaFoot {
-    font-size: 12px;
+    font-size: 22px;
 }      
