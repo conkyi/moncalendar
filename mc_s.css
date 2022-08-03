@@ -1,5 +1,5 @@
-<style>
 /* Version: 20200425 */
+
 body {
     background-color: #111111;
 }
@@ -12,20 +12,20 @@ body {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    font-family: "Zawgyi-One","Unicode","Myanmar MN","Droid Sans",Padauk,Myanmar3,Arial, Helvetica, sans-serif;
+    font-family: "Unicode","Zawgyi-One","Myanmar MN","Droid Sans","Padauk,Myanmar3","Arial", "Helvetica", "sans-serif";
 }
 
 /* Div container for day*/
 .DivContainerDay {
-    width: 450px;
-    font-family: "Zawgyi-One","Unicode","Myanmar MN","Droid Sans",Padauk,Myanmar3,Arial, Helvetica, sans-serif;
+    width: 350px;
+    font-family: "Unicode","Zawgyi-One","Myanmar MN","Droid Sans","Padauk,Myanmar3","Arial", "Helvetica", "sans-serif";
     color: #999999;
     background-color: #222222;
     padding: 20px;
     margin-left: auto;
     margin-right: auto;
     box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
-    font-size: 26px;
+    font-size: 16px;
     text-align: left;
 }
 
@@ -194,7 +194,7 @@ body {
     border: 2px solid #333333;
     font-size: 32px;
     font-family: Arial, Helvetica, sans-serif;
-    width: 170px;
+    width: 275px;
     height: 64px;
     appearance: none;
     -moz-appearance: none; /* Firefox */
@@ -217,14 +217,16 @@ body {
     border: 0px solid #333333;
     background-color: #444444;
 }
+
 /* Paragraph for table header row for Myanmar Calendar*/
 .PThMC {
-    text-align: center;
+    text-align: left;
     color: #CCCCCC;
     padding: 10px;
     margin: 0px;
-    font-size: 20px;
+    font-size: 16px;
 }
+
 /* Table footer row for Myanmar Calendar*/
 .TdFootMC {
     text-align: left;
@@ -235,7 +237,7 @@ body {
     padding-right: 8px;
     line-height: 100%;
     border: 1px solid #333333;
-    font-size: 24px;
+    font-size: 14px;
     background-color: #444444;
 }
 
@@ -256,7 +258,7 @@ body {
 /* Paragraph for table cell for Myanmar Calendar*/
 .PTdMC {
     color: #999999;
-    font-size: 24px;
+    font-size: 14px;
 }
 
 /* Anchor for table foot for Myanmar Calendar*/
@@ -279,21 +281,21 @@ body {
     padding: 8px;
     line-height: 100%;
     border: 1px solid #333333;
-    font-size: 24px;
+    font-size: 14px;
     width: 400px;
-    background-color: #555555;
+    background-color: #222222;
 }
 
 /* Primary day*/
 .PriDay {
     color: #CCCCCC;
-    font-size: 58px;
+    font-size: 18px;
 }
 
 /* Primary day as today*/
 .PriDayToday {
     color: #cca6f2;
-    font-size: 58px;
+    font-size: 18px;
     font-weight: bold;
     text-shadow: 1px 1px 2px #ff8080;
     border: 1px solid #333333;
@@ -310,61 +312,61 @@ body {
 /* Primary day as holiday*/
 .PriDayHoliday {
     color: #ff8080;
-    font-size: 48px;
+    font-size: 18px;
 }
 
 /* Primary day as weekend*/
 .PriDayWeekend {
     color: #ff8080;
-    font-size: 48px;
+    font-size: 18px;
 }
 
 /* Primary day as inaccuate*/
 .PriDayInaccu {
     color: #cca6f2;
-    font-size: 48px;
+    font-size: 18px;
 }
 
 /* Sabbath day*/
 .MCSabbath {
     color: #7ece7e;
-    font-size: 22px;
+    font-size: 12px;
 }
 
 /* Secondary day*/
 .SecDa {
     color: #999999;
-    font-size: 24px;
+    font-size: 14px;
 }
 
 /* Secondary day holiday*/
 .SecDaH {
     color: #ff8080;
-    font-size: 24px;
+    font-size: 14px;
 }
 
 /* Public Holiday description*/
 .MCPubHol {
     color: #ff8080;
-    font-size: 22px;
+    font-size: 12px;
 }
 
 /* Holiday description*/
 .MCHol {
     color: #cca6f2;
-    font-size: 22px;
+    font-size: 12px;
 }
 
 /* Yatyaza and Pyathada*/
 .MCYtyz {
     color: #7ece7e;
-    font-size: 22px;
+    font-size: 12px;
 }
 
 /* Astrological day description*/
 .MCAstro {
     color: #555555;
-    font-size: 22px;
+    font-size: 12px;
 }
 
 /*Full moon picture*/
@@ -442,4 +444,3 @@ body {
 .DaFoot {
     font-size: 12px;
 }      
-</style>
