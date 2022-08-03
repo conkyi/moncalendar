@@ -1,5 +1,4 @@
 /* Version: 20200425 */
-
 body {
     background-color: #111111;
 }
@@ -18,7 +17,7 @@ body {
 /* Div container for day*/
 .DivContainerDay {
     width: 450px;
-    font-family: "Unicode","Zawgyi-One","Myanmar MN","Droid Sans","Padauk,Myanmar3","Arial", "Helvetica", "sans-serif";
+    font-family: "Zawgyi-One","Unicode","Myanmar MN","Droid Sans",Padauk,Myanmar3,Arial, Helvetica, sans-serif;
     color: #999999;
     background-color: #222222;
     padding: 20px;
@@ -194,7 +193,7 @@ body {
     border: 2px solid #333333;
     font-size: 32px;
     font-family: Arial, Helvetica, sans-serif;
-    width: 275px;
+    width: 170px;
     height: 64px;
     appearance: none;
     -moz-appearance: none; /* Firefox */
@@ -217,16 +216,14 @@ body {
     border: 0px solid #333333;
     background-color: #444444;
 }
-
 /* Paragraph for table header row for Myanmar Calendar*/
 .PThMC {
-    text-align: left;
+    text-align: center;
     color: #CCCCCC;
     padding: 10px;
     margin: 0px;
     font-size: 20px;
 }
-
 /* Table footer row for Myanmar Calendar*/
 .TdFootMC {
     text-align: left;
@@ -283,7 +280,7 @@ body {
     border: 1px solid #333333;
     font-size: 24px;
     width: 400px;
-    background-color: #222222;
+    background-color: #555555;
 }
 
 /* Primary day*/
@@ -408,13 +405,13 @@ body {
 
 /*font size for day display*/
 .DaFontSize {
-    font-size: 26px;
+    font-size: 16px;
 }
 
 /* Historical day*/
 .HLabel {
     color: #7ece7e;
-    font-size: 22px;
+    font-size: 12px;
     font-weight: bold;
     text-shadow: 1px 1px 2px #ff8080;
     border: 1px solid #333333;
@@ -435,12 +432,13 @@ body {
     padding: 10px;
     line-height: 150%;
     border: 1px solid #333333;
-    font-size: 28px;
+    font-size: 18px;
     background-color: #444444;
     font-family: Arial, Helvetica, sans-serif;
     color: #7ece7e;
 }
 
 .DaFoot {
-    font-size: 22px;
+    font-size: 12px;
 }      
+
